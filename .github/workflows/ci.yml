@@ -31,10 +31,9 @@ jobs:
       - name: Lint Helm chart
         run: helm lint helm/devops-app
 
-      - name: install terraform
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y terraform
+      - name: setup terraform
+        uses: hashicorp/setup-terraform@v3
+        with: terraform_version: "1.14.3"
 
       - name: terraform validate
         run: |
