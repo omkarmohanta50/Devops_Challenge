@@ -1,0 +1,7 @@
+image:
+  repository: devops-app
+  tag: latest
+
+
+service:
+  port: 80
