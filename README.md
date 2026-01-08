@@ -33,6 +33,7 @@ The `setup.sh` script automates the complete local deployment process.
 ```bash
 chmod +x setup.sh
 ./setup.sh
+```
 
 After successful execution, the application will be deployed into the Kubernetes cluster.
 
