@@ -48,4 +48,4 @@ capability called CAP_NET_BIND_SERVICE.
 
 
 This capability allows a non-root process to use ports below 1024 (like port 80).
-Because of this, the application can listen on port 80 without running as root.
+Because of this, the application can listen on port 80 without running as root. 
